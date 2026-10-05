@@ -1,0 +1,33 @@
+*{box-sizing:border-box;scroll-behavior:smooth}
+:root{--primary:#6c63ff;--accent:#00a896;--bg:#fff;--surface:#f6f7fb;--text:#1d2230;--muted:#687083;--border:#e3e6ef}
+body{margin:0;font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;background:var(--bg);color:var(--text);line-height:1.7;transition:.3s}
+.navbar{background:rgba(17,19,31,.95);backdrop-filter:blur(12px)}
+.navbar-brand span{color:#8e87ff}.nav-link{margin:0 3px;font-weight:500}
+.hero{background:radial-gradient(circle at 10% 20%,rgba(108,99,255,.14),transparent 30%),radial-gradient(circle at 90% 80%,rgba(0,168,150,.10),transparent 30%)}
+.eyebrow{color:var(--primary);font-size:.8rem;font-weight:800;letter-spacing:2px}
+h1{font-size:clamp(2.5rem,7vw,5rem);font-weight:800;line-height:1.05}
+h1 span{background:linear-gradient(90deg,var(--primary),var(--accent));-webkit-background-clip:text;color:transparent}
+.hero h2{font-size:clamp(1.15rem,3vw,1.6rem);color:var(--muted)}
+.lead,.muted{color:var(--muted)}
+.profile-card,.card-custom,.skill-card,.project-card,.achievement{background:var(--bg);border:1px solid var(--border);border-radius:20px;padding:28px;box-shadow:0 10px 35px rgba(25,30,50,.07)}
+.profile-card{max-width:430px;margin:auto}.profile-img{width:170px;height:170px;margin:0 auto 18px;display:block}
+.profile-card strong{display:block;color:var(--primary);font-size:1.3rem}.profile-card small{color:var(--muted)}
+.section{padding:90px 0}.alt{background:var(--surface)}.section-title{font-weight:800;margin-bottom:40px}
+.card-custom,.skill-card,.project-card,.achievement{transition:transform .2s,box-shadow .2s}
+.card-custom:hover,.skill-card:hover,.project-card:hover,.achievement:hover{transform:translateY(-5px);box-shadow:0 15px 40px rgba(25,30,50,.12)}
+.tags{display:flex;gap:8px;flex-wrap:wrap}.tags span{background:#eeeefe;color:var(--primary);padding:6px 12px;border-radius:50px;font-size:.85rem;font-weight:700}
+.info-list{list-style:none;padding:0}.info-list li{padding:11px 0;border-bottom:1px solid var(--border)}.info-list i,.contact-icon{color:var(--primary);margin-right:8px}
+.table{--bs-table-bg:transparent;--bs-table-color:var(--text);--bs-table-border-color:var(--border)}
+.table thead th{background:#eeeeff;color:var(--primary)}
+.skill-card i,.achievement i{font-size:2rem;color:var(--primary);display:inline-block;margin-bottom:10px}
+.progress{height:9px;background:var(--border)}.progress-bar{background:linear-gradient(90deg,var(--primary),var(--accent))}
+.skill-row{margin-bottom:20px}.skill-row>div:first-child{display:flex;justify-content:space-between}
+.project-icon{width:55px;height:55px;display:grid;place-items:center;background:#eeeeff;color:var(--primary);border-radius:15px;font-size:1.5rem;margin-bottom:15px}
+.project-card small{color:var(--accent);font-weight:800;letter-spacing:1.5px}.project-card a{color:var(--primary);font-weight:700;text-decoration:none}
+footer{background:#151725;color:#c9ccda;text-align:center;padding:28px}
+body.dark{--bg:#11131c;--surface:#181b27;--text:#f2f3f7;--muted:#adb2c2;--border:#303447}
+body.dark .table thead th{background:#25243f}
+body.dark .tags span,body.dark .project-icon{background:#292746}
+.form-control{background:var(--bg);color:var(--text);border-color:var(--border)}
+@media(max-width:991px){.hero{padding-top:80px}.section{padding:65px 0}}
+@media(max-width:575px){.section{padding:55px 0}.card-custom,.skill-card,.project-card,.achievement{padding:22px}}

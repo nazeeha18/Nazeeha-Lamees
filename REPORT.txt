@@ -1,0 +1,62 @@
+FULL STACK DEVELOPMENT – ASSIGNMENT 1 REPORT
+
+TITLE: Personal Portfolio Web Application
+STUDENT: Nazeeha Lamees
+BRANCH: Computer Science & Engineering
+SEMESTER: VII
+SECTION: A
+COLLEGE: Stanley College of Engineering & Technology for Women
+
+1. INTRODUCTION
+The Personal Portfolio Web Application is a responsive and accessible website designed to present the student's profile, academic background, technical skills, projects, achievements and contact information. It is developed using HTML5, CSS3, Bootstrap and JavaScript ES6+.
+
+2. OBJECTIVES
+• Create a professional personal portfolio.
+• Use semantic HTML5 structure.
+• Implement responsive mobile-first design.
+• Use Bootstrap UI components.
+• Add JavaScript-based interactivity.
+• Implement client-side form validation.
+• Follow accessibility and modern UI practices.
+
+3. TECHNOLOGIES USED
+HTML5 – semantic structure, headings, lists, links, image, table and form.
+CSS3 – selectors, box model, typography, colors, positioning, responsive media queries and visual effects.
+Bootstrap – navbar, grid, cards, buttons, table, forms and utilities.
+JavaScript ES6+ – variables, functions, arrow functions, conditions, loops, arrays/objects concepts, events and DOM manipulation.
+
+4. MODULES / SECTIONS
+Home – introduces the student.
+About – personal profile and interests.
+Education – academic information in a table.
+Skills – technical skills and progress indicators.
+Projects – project cards with category filtering.
+Achievements – certifications and internship experience.
+Contact – contact details and validated contact form.
+
+5. HTML5 IMPLEMENTATION
+Semantic elements such as nav, main, section, article, footer, headings, lists, image, table and form are used. Labels are associated with form controls and the page is organized into meaningful sections.
+
+6. CSS3 AND RESPONSIVE DESIGN
+CSS variables, box model, typography, colors, borders, shadows, Flexbox-style layouts and media queries are used. The design follows a mobile-first approach and adapts to mobile, tablet and desktop screens.
+
+7. BOOTSTRAP IMPLEMENTATION
+Bootstrap 5 is used for the responsive navbar, container/grid system, buttons, cards, responsive table, forms, alerts and utility classes.
+
+8. JAVASCRIPT INTERACTIVITY
+Feature 1: Theme switching. The user can switch between light and dark modes; localStorage remembers the choice.
+Feature 2: Project filtering. Projects can be filtered into All, Web, AI and Security categories.
+Feature 3: Contact form validation. Invalid fields produce error messages and valid submission produces a dynamic success message.
+Feature 4: Current year is generated dynamically in the footer.
+
+9. ACCESSIBILITY
+The application uses semantic HTML, descriptive form labels, alternative text for the profile image, keyboard-friendly controls, ARIA attributes and responsive layouts.
+
+10. VALIDATION
+The contact form validates name, email, subject and message using HTML5 constraints and JavaScript event handling.
+
+11. TESTING
+The application was tested for navigation, responsive layout, theme switching, project filtering, form validation, dynamic messages, mobile navigation and visual consistency.
+
+12. CONCLUSION
+The project demonstrates practical use of HTML5, CSS3, Bootstrap and JavaScript ES6+. It satisfies the main requirements of the Full Stack Development Assignment-1 by providing a responsive, accessible and interactive personal portfolio.
