@@ -23,7 +23,7 @@ Open `index.html` in a browser. Internet access is needed for Bootstrap CDN file
 
 ### GitHub
 Create a repository, upload all files, and optionally enable GitHub Pages.
-## Aut 
+## Author
 nazeeha lamees
 cs student 
 https://www.linkedin.com/in/nazeeha-lamees-2912ba364?utm_source=share_via&utm_content=profile&utm_medium=member_ios
